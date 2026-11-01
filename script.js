@@ -104,7 +104,7 @@ box.appendChild(d)}
 $('ab').addEventListener('click',function(){ask($('aq').value)});
 $('aq').addEventListener('keydown',function(e){if(e.key==='Enter'){e.preventDefault();ask(this.value)}});
 document.querySelectorAll('.chips button').forEach(function(b){b.addEventListener('click',function(){$('aq').value=b.textContent;ask(b.textContent)})});
-var REVIEWS=[];
+var REVIEWS=[{s:5,t:'Nice quality',n:'Manoj Kumar',c:'Printing and packaging, UP'}];
 (function(){var box=$('rvs');if(!REVIEWS.length){var e=document.createElement('div');e.className='rvempty';e.textContent='Reviews from our customers will appear here.';box.appendChild(e);return}
 var g=document.createElement('div');g.className='rvgrid';
 REVIEWS.forEach(function(r){var f=document.createElement('figure');f.className='rv';
